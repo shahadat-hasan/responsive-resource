@@ -33,3 +33,10 @@ img{
         
     }
 }
+/* medium screen responsive  */
+@media screen and (min-height:576px) and (max-width:992px) {
+        .row{
+            flex-direction: column;
+            height: auto;
+        }
+}
